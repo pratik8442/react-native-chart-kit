@@ -87,7 +87,7 @@ class BarChart extends AbstractChart<BarChartProps, BarChartState> {
           }
           y={
             ((barHeight > 0 ? baseHeight - barHeight : baseHeight) / 4) * 3 +
-            paddingTop
+            paddingTop+5
           }
           rx={barRadius}
           width={barWidth}
